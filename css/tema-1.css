@@ -1,0 +1,171 @@
+/*TAGS GLOBAIS*/
+
+body{
+}
+
+h1, h2, h3, h4, h5, h6{
+    text-transform: uppercase;
+    margin: 0 0 auto 0;
+    color:white;
+    font-weight: normal;
+    letter-spacing: 10px;
+}
+
+a{}
+
+a:hover{}
+
+
+/*SEÇÕES*/
+header{ min-height: 80px;}
+
+section#news{ min-height: 420px;}
+
+section#about{ padding: 50px 0;}
+
+section#services article i{ font-size: 50px; margin: 10px 0;}
+
+/* 
+ESTRUTURA DE LOGOTIPO    
+*/
+
+h1#logo a {
+    background: url("../img/logotipo.png") no-repeat;
+    width: 200px;
+    height: 41px;
+    display: block;
+    margin: 10px auto;
+}
+
+h1#logo a span {
+    display: none;
+}
+
+/* 
+ESTRUTURA DO MENU
+*/
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+ul.menu {
+
+}
+
+ul.menu.horizontal li {
+    border-right: 1px solid black;
+    padding-right: 5px;
+}
+
+ul.menu.horizontal li:last-child{
+    border: none;
+}
+
+ul.menu.vertical li{
+    border-left: 4px black solid;
+    margin-bottom:2px; 
+}
+
+ul.menu.vertical li:hover{
+    border-left: 2px black solid;
+    margin-bottom:2px; 
+    background: black;
+}
+
+ul.menu.vertical li a{
+    border: 1px solid black;
+    text-align: left;
+    color:black;
+}
+
+ul.menu.vertical li a:hover{
+    border: 1px solid black;
+    text-align: left;
+}
+
+
+ul.menu li a {
+    text-decoration: none;
+    padding: 5px 15px;
+    color: black;
+    text-align: center;
+    transition: all 1s;
+}
+
+ul.menu.horizontal li a i{
+    color: black;
+}
+
+ul.menu.horizontal li a:hover i{
+    color: black;
+}
+
+ul.menu li a:hover{
+    color: black;
+}
+
+/*
+ESTRUTURA DE CORES
+*/
+
+ul.menu.white li{
+    border-right: 1px white solid;
+}
+
+ul.menu.white li a{
+    color:#fff;
+}
+
+ul.menu.white li a i{
+    color:#fff;
+    transition: 1s color;
+}
+
+ul.menu.white li a:hover i{
+    color: black;
+}
+
+.btn{
+    padding:10px 15px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid #fff;
+}
+
+.color-blue{
+    color:white;
+}
+
+.bg-blue{
+    background: black;
+    color: #fff;
+}
+
+.btn.bg-blue:hover{
+    background: black;
+    color: black;
+    border: 1px solid black;
+}
+
+.bg-gray{
+    background: black;
+    color: black;
+}
+
+
+/*MEDIA QUERIES (Responsivas)*/
+
+@media screen and (max-width:1000px){
+    
+}
+
+@media screen and (max-width:850px){
+    
+    section#services article:nth-child(3n){ width: 100%; margin: 25px auto;}
+}
+
+@media screen and (max-width:480px){
+    
+}
